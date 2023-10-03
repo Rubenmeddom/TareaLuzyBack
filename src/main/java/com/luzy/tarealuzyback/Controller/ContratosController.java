@@ -27,4 +27,9 @@ public class ContratosController  {
     public List<Contratos> findContratos(@PathVariable Integer clienteid) {
         return Cs.findContratos(clienteid);
     }
+    @PostMapping("/agregarContratos")
+    public Contratos agregarContrato(@RequestBody Contratos contrato) {
+        return Cs.agregarContrato(contrato);
+    }
+
 }

@@ -1,5 +1,5 @@
 package com.luzy.tarealuzyback.Controller;
-import  com.luzy.tarealuzyback.Modelo.Facturas;
+
 import com.luzy.tarealuzyback.Modelo.Productos;
 import com.luzy.tarealuzyback.Servicio.ProductosServicio;
 import org.springframework.beans.factory.annotation.Autowired;

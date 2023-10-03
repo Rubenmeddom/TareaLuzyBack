@@ -9,5 +9,5 @@ import java.util.List;
 public interface IContratosRepo extends JpaRepository<Contratos,Integer> {
     @Query(value = "SELECT * FROM contratos WHERE clienteid =:clienteid ", nativeQuery = true)
     List<Contratos> findContratos(@Param("clienteid") Integer clienteid);
-
+    Contratos save(Contratos contrato);
 }
